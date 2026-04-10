@@ -4,9 +4,9 @@ let zoneFrame = document.getElementById('zoneFrame');
 const searchBar = document.getElementById('searchBar');
 const sortOptions = document.getElementById('sortOptions');
 // https://www.jsdelivr.com/tools/purge
-const zonesURL = "https://cdn.jsdelivr.net/gh/gn-math/assets@main/zones.json";
-const coverURL = "https://cdn.jsdelivr.net/gh/gn-math/covers@main";
-const htmlURL = "https://cdn.jsdelivr.net/gh/gn-math/html@main";
+const zonesURL = "https://cdn.jsdelivr.net/gh/minecraftuser2/assets@main/zones.json";
+const coverURL = "https://cdn.jsdelivr.net/gh/minecraftuser2/covers@main";
+const htmlURL = "https://cdn.jsdelivr.net/gh/minecraftuser2/html@main";
 let zones = [];
 let popularityData = {};
 async function listZones() {
